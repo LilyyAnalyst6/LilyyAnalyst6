@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lilian Alexander | Entry-Level Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Lilian Alexander - Entry-Level Data Analyst specializing in Data Cleaning, SQL Querying, Data Visualization (Power BI, Excel, Tableau), and Business Reporting.">
+  <meta name="keywords" content="Junior Data Analyst, Entry-Level Data Analyst, Lilian Alexander, Power BI, Tableau, Excel, SQL, Data Cleaning, Data Analytics Portfolio">
+  <meta name="author" content="Lilian Alexander">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Lilian Alexander | Entry-Level Data Analyst Portfolio">
+  <meta property="og:description" content="Turning raw data into clear, reliable insights with SQL, Power BI, Excel, and Tableau.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Chart.js for Live Interactive Demo -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-badge"><i class="fa-solid fa-chart-line"></i></span>
+        <span class="brand-name">Lilian<span>Alexander</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- CTA Contact -->
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">Get in Touch</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="menu-toggle" class="icon-btn mobile-toggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg-glow"></div>
+      <div class="hero-grid-pattern"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-pill animate-fade-in">
+            <span class="pulse-dot"></span> Open to Entry-Level Data Analyst Roles &amp; Internships
+          </div>
+          <h1 class="hero-title animate-fade-in delay-1">
+            Hi, I'm <span class="gradient-text">Lilian Alexander</span>
+            <br>
+            <span class="title-sub">Entry-Level Data Analyst</span>
+          </h1>
+          <p class="hero-description animate-fade-in delay-2">
+            I am a motivated, detail-oriented beginner in data analytics passionate about turning messy, unstructured datasets into clean, reliable visual stories. Grounded in solid fundamentals across <strong>SQL querying</strong>, <strong>Power BI dashboards</strong>, <strong>Excel modeling</strong>, and <strong>foundational Python for exploratory data analysis</strong>.
+          </p>
+
+          <div class="hero-cta-group animate-fade-in delay-3">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#skills" class="btn btn-outline">
+              <i class="fa-solid fa-toolbox"></i>
+              <span>View My Skills</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Connect Badges -->
+          <div class="hero-social-strip animate-fade-in delay-4">
+            <span class="social-label">Find me on:</span>
+            <a href="https://www.linkedin.com/in/lilian-alexander/" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>linkedin.com/in/lilian-alexander</span>
+            </a>
+            <a href="https://github.com/LilyyAnalyst6" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+              <span>LilyyAnalyst6</span>
+            </a>
+            <button class="social-pill copy-email-btn" data-email="alexanderlilian679@gmail.com" title="Click to copy email">
+              <i class="fa-solid fa-envelope"></i>
+              <span>alexanderlilian679@gmail.com</span>
+              <span class="copy-status"><i class="fa-solid fa-copy"></i></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Professional Portrait Showcase -->
+        <div class="hero-visual animate-fade-in delay-2">
+          <div class="hero-avatar-showcase">
+            <div class="avatar-ambient-glow"></div>
+            <div class="avatar-orbit-ring ring-outer"></div>
+            <div class="avatar-orbit-ring ring-inner"></div>
+
+            <!-- Profile Frame -->
+            <div class="hero-avatar-frame">
+              <img src="assets/lilian-alexander.jpg" alt="Lilian Alexander - Aspiring Data Analyst" class="hero-avatar-img" />
+            </div>
+
+            <!-- Floating Professional Badges (Curated for Entry-Level) -->
+            <div class="metric-float-card avatar-badge-top">
+              <span class="pulse-dot"></span>
+              <div class="avatar-badge-text">
+                <strong>Eager to Learn</strong>
+                <span>Junior Roles &amp; Internships</span>
+              </div>
+            </div>
+
+            <div class="metric-float-card avatar-badge-left">
+              <div class="metric-icon bg-cyan"><i class="fa-solid fa-chart-pie"></i></div>
+              <div class="metric-info">
+                <span class="metric-label">Visual Analytics</span>
+                <span class="metric-val">Power BI &amp; Excel</span>
+              </div>
+            </div>
+
+            <div class="metric-float-card avatar-badge-right">
+              <div class="metric-icon bg-emerald"><i class="fa-solid fa-database"></i></div>
+              <div class="metric-info">
+                <span class="metric-label">Data Querying</span>
+                <span class="metric-val">SQL &amp; Python</span>
+              </div>
+            </div>
+
+            <div class="metric-float-card avatar-badge-bottom">
+              <div class="metric-icon bg-purple"><i class="fa-solid fa-seedling"></i></div>
+              <div class="metric-info">
+                <span class="metric-label">Core Toolkit</span>
+                <span class="metric-val">SQL • Power BI • Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (Curated for Early-Career / Beginner) -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> About Me</span>
+          <h2 class="section-title">Eager to Learn, Thorough with Data</h2>
+          <p class="section-subtitle">
+            Building a strong foundation in data analytics with a disciplined, inquisitive mindset and practical project experience.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card profile-narrative">
+            <div class="narrative-badge"><i class="fa-solid fa-compass"></i> Passion &amp; Purpose</div>
+            <h3>My Journey &amp; Approach</h3>
+            <p class="lead-text">
+              Every dataset has a story. I like finding it.
+              I got into data analytics because I wanted to know why trends change, where things get stuck and how evidence can help people decide better.
+              Messy data does not scare me. Cleaning it is where I learn the most.
+              The three steps are: clean the data, ask clear questions, show it simply.
+              My workflow follows a three-pillar approach:
+            </p>
+            <ul class="approach-steps">
+              <li>
+                <span class="step-num">01</span>
+                <div>
+                  <strong>Curate with Integrity:</strong> Clean, filter, and validate raw datasets using Excel, SQL, and foundational Python (Pandas) so every baseline number is reliable.
+                </div>
+              </li>
+              <li>
+                <span class="step-num">02</span>
+                <div>
+                  <strong>Model with Purpose:</strong> Frame testable questions, engineer informative DAX &amp; SQL metrics, and cross-check calculations against source data.
+                </div>
+              </li>
+              <li>
+                <span class="step-num">03</span>
+                <div>
+                  <strong>Design for Humans:</strong> Eliminate visual noise and build intuitive Power BI &amp; Tableau dashboards that communicate findings effortlessly to any team member.
+                </div>
+              </li>
+            </ul>
+
+
+            <p>
+              Alongside core business intelligence tools, I am actively expanding my capabilities with <strong>foundational Python</strong> for programmatic data wrangling and exploratory data analysis. As an entry-level analyst, I bring high energy, a strong work ethic, genuine humility, and an eagerness to absorb mentorship and contribute meaningfully to a data-focused team.
+            </p>
+            
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-broom"></i></div>
+                <div>
+                  <strong>Meticulous Data Cleaning:</strong> Treating data preparation with obsessive care—resolving nulls, duplicates, and type mismatches before calculating metrics.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-brands fa-python text-amber"></i></div>
+                <div>
+                  <strong>Foundational Python:</strong> Applying Python (Pandas &amp; NumPy) for script-based exploratory data analysis and basic data manipulation.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-chart-column"></i></div>
+                <div>
+                  <strong>Visual Clarity &amp; Storytelling:</strong> Crafting dashboards that bridge analytical logic with simple, practical visual communication.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card tech-stack-summary">
+            <h3>Practical Competencies</h3>
+            <div class="stack-list">
+              <div class="stack-row">
+                <div class="stack-tech">
+                  <i class="fa-solid fa-table-cells text-emerald"></i>
+                  <span>Excel &amp; Power Query</span>
+                </div>
+                <div class="stack-bar-wrap">
+                  <div class="stack-bar" style="width: 88%;"></div>
+                </div>
+                <span class="stack-percent">Proficient</span>
+              </div>
+
+              <div class="stack-row">
+                <div class="stack-tech">
+                  <i class="fa-solid fa-chart-simple text-purple"></i>
+                  <span>Power BI &amp; DAX</span>
+                </div>
+                <div class="stack-bar-wrap">
+                  <div class="stack-bar" style="width: 82%;"></div>
+                </div>
+                <span class="stack-percent">Intermediate</span>
+              </div>
+
+              <div class="stack-row">
+                <div class="stack-tech">
+                  <i class="fa-solid fa-database text-cyan"></i>
+                  <span>SQL Queries &amp; JOINs</span>
+                </div>
+                <div class="stack-bar-wrap">
+                  <div class="stack-bar" style="width: 78%;"></div>
+                </div>
+                <span class="stack-percent">Foundational</span>
+              </div>
+
+              <div class="stack-row">
+                <div class="stack-tech">
+                  <i class="fa-brands fa-python text-amber"></i>
+                  <span>Python</span>
+                </div>
+                <div class="stack-bar-wrap">
+                  <div class="stack-bar" style="width: 72%;"></div>
+                </div>
+                <span class="stack-percent">Foundational</span>
+              </div>
+
+              <div class="stack-row">
+                <div class="stack-tech">
+                  <i class="fa-solid fa-broom text-blue"></i>
+                  <span>Data Cleaning &amp; EDA</span>
+                </div>
+                <div class="stack-bar-wrap">
+                  <div class="stack-bar" style="width: 85%;"></div>
+                </div>
+                <span class="stack-percent">Hands-On</span>
+              </div>
+
+              <div class="stack-row">
+                <div class="stack-tech">
+                  <i class="fa-solid fa-chart-pie text-blue"></i>
+                  <span>Tableau Visuals</span>
+                </div>
+                <div class="stack-bar-wrap">
+                  <div class="stack-bar" style="width: 70%;"></div>
+                </div>
+                <span class="stack-percent">Working Knowledge</span>
+              </div>
+            </div>
+
+            <div class="resume-cta-box">
+              <div class="cta-inner">
+                <i class="fa-solid fa-file-invoice text-cyan icon-lg"></i>
+                <div>
+                  <h4>Interested in my resume?</h4>
+                  <p>Download a copy or connect with me to discuss entry-level openings or internships.</p>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-outline">Request Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION (Curated for an Early-Career / Beginner Analyst) -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-toolbox"></i> Skills &amp; Toolkit</span>
+          <h2 class="section-title">My Data Analytics Skill Set</h2>
+          <p class="section-subtitle">
+            Here are the practical skills and tools I have cultivated through dedicated project work, coursework, and hands-on analysis.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: Data Cleaning and Analysis -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper icon-cleaning">
+                <i class="fa-solid fa-filter-circle-dollar"></i>
+              </div>
+              <span class="skill-badge">Core Focus</span>
+            </div>
+            <h3 class="skill-title">Data Cleaning &amp; Analysis</h3>
+            <p class="skill-description">
+              Methodical preparation and exploration of raw datasets to ensure data integrity, reliable conclusions, and accurate reporting.
+            </p>
+            <ul class="skill-points">
+              <li><i class="fa-solid fa-check"></i> Identifying and handling missing values, nulls, and duplicate records</li>
+              <li><i class="fa-solid fa-check"></i> Exploratory Data Analysis (EDA) using Excel, SQL, and foundational Python (Pandas)</li>
+              <li><i class="fa-solid fa-check"></i> Standardizing text, date formats, and numeric field types</li>
+              <li><i class="fa-solid fa-check"></i> Calculating descriptive summary statistics (Mean, Median, Modes)</li>
+            </ul>
+            <div class="skill-tags">
+              <span>Python (Pandas)</span>
+              <span>EDA</span>
+              <span>Data Wrangling</span>
+              <span>Data Quality</span>
+            </div>
+          </div>
+
+          <!-- Skill 2: Data Visualization -->
+          <div class="skill-card featured-skill">
+            <div class="featured-indicator">Hands-on Projects</div>
+            <div class="skill-header">
+              <div class="skill-icon-wrapper icon-viz">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+              <span class="skill-badge">Dashboarding</span>
+            </div>
+            <h3 class="skill-title">Data Visualization</h3>
+            <p class="skill-description">
+              Designing user-friendly charts and interactive visual dashboards that make numbers easy to digest for project stakeholders.
+            </p>
+            
+            <div class="sub-tool-grid">
+              <div class="sub-tool-item">
+                <i class="fa-solid fa-file-excel text-emerald"></i>
+                <div>
+                  <strong>Excel</strong>
+                  <span>Pivot Tables, Pivot Charts, Conditional Formatting, XLOOKUP</span>
+                </div>
+              </div>
+              <div class="sub-tool-item">
+                <i class="fa-solid fa-chart-simple text-amber"></i>
+                <div>
+                  <strong>Power BI</strong>
+                  <span>Interactive Slicers, DAX Measures (SUM, CALCULATE), KPI Cards</span>
+                </div>
+              </div>
+              <div class="sub-tool-item">
+                <i class="fa-solid fa-chart-pie text-blue"></i>
+                <div>
+                  <strong>Tableau</strong>
+                  <span>Calculated Fields, Bar/Line Plots, Storyboard Layouts</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span>Interactive Dashboards</span>
+              <span>Chart Selection</span>
+              <span>Pivot Tables</span>
+              <span>DAX Basics</span>
+            </div>
+          </div>
+
+          <!-- Skill 3: Database Management (SQL) -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper icon-sql">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <span class="skill-badge">Querying</span>
+            </div>
+            <h3 class="skill-title">Database Management (SQL)</h3>
+            <p class="skill-description">
+              Writing structured, readable relational database queries to extract, filter, join, and aggregate project datasets.
+            </p>
+            <ul class="skill-points">
+              <li><i class="fa-solid fa-check"></i> Filtering and sorting (`SELECT`, `WHERE`, `ORDER BY`)</li>
+              <li><i class="fa-solid fa-check"></i> Multi-table operations (`INNER JOIN`, `LEFT JOIN`)</li>
+              <li><i class="fa-solid fa-check"></i> Data summarization (`GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`)</li>
+              <li><i class="fa-solid fa-check"></i> Basic subqueries, CTEs, and table schema understanding</li>
+            </ul>
+            <div class="skill-tags">
+              <span>PostgreSQL</span>
+              <span>MySQL</span>
+              <span>JOIN Operations</span>
+              <span>Aggregations</span>
+              <span>Subqueries</span>
+            </div>
+          </div>
+
+          <!-- Skill 4: Report Writing and Storytelling -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper icon-story">
+                <i class="fa-solid fa-book-open-reader"></i>
+              </div>
+              <span class="skill-badge">Communication</span>
+            </div>
+            <h3 class="skill-title">Report Writing &amp; Storytelling</h3>
+            <p class="skill-description">
+              Translating numbers into plain-English summaries, structured documentation, and clear presentations for team review.
+            </p>
+            <ul class="skill-points">
+              <li><i class="fa-solid fa-check"></i> Writing concise, bulleted key insight summaries</li>
+              <li><i class="fa-solid fa-check"></i> Documenting data dictionaries and metric definitions</li>
+              <li><i class="fa-solid fa-check"></i> Highlighting actionable takeaways from dashboard findings</li>
+              <li><i class="fa-solid fa-check"></i> Structuring presentation slides with clean visual hierarchy</li>
+            </ul>
+            <div class="skill-tags">
+              <span>Findings Summary</span>
+              <span>Data Dictionaries</span>
+              <span>Presentations</span>
+              <span>Clear Explanations</span>
+            </div>
+          </div>
+
+          <!-- Skill 5: Analytical Thinking & Problem Solving -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper icon-thinking">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <span class="skill-badge">Problem Solving</span>
+            </div>
+            <h3 class="skill-title">Analytical Thinking &amp; Problem Solving</h3>
+            <p class="skill-description">
+              Breaking down complex project questions into systematic analytical steps and verifying results with sanity checks.
+            </p>
+            <ul class="skill-points">
+              <li><i class="fa-solid fa-check"></i> Breaking big questions into smaller, testable sub-problems</li>
+              <li><i class="fa-solid fa-check"></i> Formulating initial hypotheses to explore trends</li>
+              <li><i class="fa-solid fa-check"></i> Sanity checking numbers against raw data to avoid errors</li>
+              <li><i class="fa-solid fa-check"></i> Self-motivated debugging of formula errors and logic</li>
+            </ul>
+            <div class="skill-tags">
+              <span>Critical Thinking</span>
+              <span>Hypothesis Testing</span>
+              <span>Sanity Checks</span>
+              <span>Root Cause Logic</span>
+            </div>
+          </div>
+
+          <!-- Skill 6: Collaboration & Continuous Learning -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper icon-biz">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <span class="skill-badge">Team Player</span>
+            </div>
+            <h3 class="skill-title">Collaboration &amp; Growth Mindset</h3>
+            <p class="skill-description">
+              Open to constructive feedback, eager to absorb new analytical methodologies, and dedicated to working collaboratively.
+            </p>
+            <ul class="skill-points">
+              <li><i class="fa-solid fa-check"></i> Version control and project sharing with Git &amp; GitHub</li>
+              <li><i class="fa-solid fa-check"></i> Iterating on dashboards based on mentor and peer feedback</li>
+              <li><i class="fa-solid fa-check"></i> High enthusiasm for learning new tools and industry domains</li>
+              <li><i class="fa-solid fa-check"></i> Respect for data privacy, confidentiality, and guidelines</li>
+            </ul>
+            <div class="skill-tags">
+              <span>GitHub</span>
+              <span>Fast Learner</span>
+              <span>Team Collaboration</span>
+              <span>Growth Mindset</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SHOWCASE SECTION (INTERACTIVE CAROUSEL) -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Portfolio Showcase</span>
+          <h2 class="section-title">Hands-On Analytics Projects</h2>
+          <p class="section-subtitle">
+            Explore my project portfolio through this interactive carousel. Each project represents an end-to-end practical exercise—from cleaning data in Excel/SQL to building visual reports in Power BI.
+          </p>
+        </div>
+
+
+        <!-- CAROUSEL WRAPPER -->
+        <div class="carousel-wrapper" id="carousel-wrapper">
+          <div class="carousel-track" id="carousel-track">
+
+            <!-- SLIDE 1: HealthConnect Final Project -->
+            <div class="carousel-slide active" data-category="power-bi sql excel" data-index="0">
+              <article class="project-card carousel-card">
+                <div class="project-preview-banner bg-grad-health">
+                  <div class="banner-overlay">
+                    <div class="banner-badge"><i class="fa-solid fa-heart-pulse"></i> Healthcare Analytics Project</div>
+                    <div class="banner-chart-icon"><i class="fa-solid fa-hospital-user"></i></div>
+                    <div class="banner-stats">
+                      <div class="mini-stat"><span>28%</span><small>No-Show Cut</small></div>
+                      <div class="mini-stat"><span>Cleaned</span><small>EHR Records</small></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-card-body">
+                  <div class="project-category-row">
+                    <span class="badge badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="badge badge-sql"><i class="fa-solid fa-database"></i> SQL</span>
+                    <span class="badge badge-excel"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                  </div>
+                  <h3 class="project-title">HealthConnect: Patient Flow &amp; Appointment Analytics</h3>
+                  <p class="project-summary">
+                    A hands-on healthcare analytics project analyzing patient appointment records, clinic wait times, and attendance trends across hospital departments to understand scheduling bottlenecks and reduce missed visits.
+                  </p>
+                  <div class="project-key-findings">
+                    <strong><i class="fa-solid fa-lightbulb"></i> Practical Discovery:</strong>
+                    Monday morning slots had a 34% no-show rate; demonstrated that an automated 24-hour reminder could mitigate missed appointments by 28%.
+                  </div>
+                  <div class="project-tools-list">
+                    <span>Power BI Desktop</span>
+                    <span>SQL Queries</span>
+                    <span>Data Cleaning</span>
+                    <span>Patient Metrics</span>
+                    <span>Power Query</span>
+                  </div>
+                  <div class="project-card-footer">
+                    <button class="btn btn-sm btn-primary open-modal-btn" data-project="project-healthconnect">
+                      <span>View Case Study</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                    <a href="https://github.com/LilyyAnalyst6/HEALTHCONNECT-FINAL-PROJECT.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="Open GitHub Repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 2: Superstore Sales Dashboard -->
+            <div class="carousel-slide" data-category="power-bi dax excel" data-index="1">
+              <article class="project-card carousel-card">
+                <div class="project-preview-banner bg-grad-sales">
+                  <div class="banner-overlay">
+                    <div class="banner-badge"><i class="fa-solid fa-cart-shopping"></i> Retail Sales Analysis</div>
+                    <div class="banner-chart-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                    <div class="banner-stats">
+                      <div class="mini-stat"><span>5 Pages</span><small>Report Suite</small></div>
+                      <div class="mini-stat"><span>Retail</span><small>Sample Data</small></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-card-body">
+                  <div class="project-category-row">
+                    <span class="badge badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="badge badge-dax"><i class="fa-solid fa-calculator"></i> DAX</span>
+                    <span class="badge badge-excel"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                  </div>
+                  <h3 class="project-title">Superstore Sales Performance &amp; Profitability Dashboard</h3>
+                  <p class="project-summary">
+                    A comprehensive 5-page Power BI report tracking retail sales, profit margins, discount effects, product categories, and customer segments, built to explore where retail businesses gain and lose margins.
+                  </p>
+                  <div class="project-key-findings">
+                    <strong><i class="fa-solid fa-lightbulb"></i> Practical Discovery:</strong>
+                    Discounts over 20% in Furniture caused negative profit margins despite high volume, showing that higher sales don't always mean higher profitability.
+                  </div>
+                  <div class="project-tools-list">
+                    <span>Power BI Desktop</span>
+                    <span>DAX Measures</span>
+                    <span>Data Modeling</span>
+                    <span>Profit Analysis</span>
+                    <span>Excel</span>
+                  </div>
+                  <div class="project-card-footer">
+                    <button class="btn btn-sm btn-primary open-modal-btn" data-project="project-superstore">
+                      <span>View Case Study</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                    <a href="https://github.com/LilyyAnalyst6/Super-Store-Sales-Dashboard.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="Open GitHub Repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 3: California Real Estate Market Trends -->
+            <div class="carousel-slide" data-category="power-bi dax excel" data-index="2">
+              <article class="project-card carousel-card">
+                <div class="project-preview-banner bg-grad-realestate">
+                  <div class="banner-overlay">
+                    <div class="banner-badge"><i class="fa-solid fa-city"></i> Real Estate Project</div>
+                    <div class="banner-chart-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="banner-stats">
+                      <div class="mini-stat"><span>20,640</span><small>Census Rows</small></div>
+                      <div class="mini-stat"><span>3 Pages</span><small>Interactive Map</small></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-card-body">
+                  <div class="project-category-row">
+                    <span class="badge badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="badge badge-sql"><i class="fa-solid fa-layer-group"></i> Geospatial</span>
+                    <span class="badge badge-excel"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                  </div>
+                  <h3 class="project-title">California Real Estate Trends &amp; Affordability Analysis</h3>
+                  <p class="project-summary">
+                    A 3-page interactive Power BI geospatial project exploring median house prices, affordability ratios, and geographic valuation patterns across 20,640 California census block groups.
+                  </p>
+                  <div class="project-key-findings">
+                    <strong><i class="fa-solid fa-lightbulb"></i> Practical Discovery:</strong>
+                    Proximity to the ocean accounted for a significant price premium regardless of home age, highlighting location as the primary price determinant.
+                  </div>
+                  <div class="project-tools-list">
+                    <span>Power BI Desktop</span>
+                    <span>Power Query (M)</span>
+                    <span>Mapping Visuals</span>
+                    <span>Affordability Metrics</span>
+                    <span>Census Data</span>
+                  </div>
+                  <div class="project-card-footer">
+                    <button class="btn btn-sm btn-primary open-modal-btn" data-project="project-realestate">
+                      <span>View Case Study</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                    <a href="https://github.com/LilyyAnalyst6/CodeAlpha--Real-Estate-Market-Trends.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="Open GitHub Repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 4: Educational Performance & Resource Allocation -->
+            <div class="carousel-slide" data-category="power-bi excel" data-index="3">
+              <article class="project-card carousel-card">
+                <div class="project-preview-banner bg-grad-edu">
+                  <div class="banner-overlay">
+                    <div class="banner-badge"><i class="fa-solid fa-graduation-cap"></i> Student Data Project</div>
+                    <div class="banner-chart-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <div class="banner-stats">
+                      <div class="mini-stat"><span>12,469</span><small>Cleaned Rows</small></div>
+                      <div class="mini-stat"><span>2 Pages</span><small>EDA Report</small></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-card-body">
+                  <div class="project-category-row">
+                    <span class="badge badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="badge badge-excel"><i class="fa-solid fa-file-excel"></i> Power Query</span>
+                    <span class="badge badge-dax"><i class="fa-solid fa-brain"></i> Statistical EDA</span>
+                  </div>
+                  <h3 class="project-title">Educational Performance &amp; Resource Allocation</h3>
+                  <p class="project-summary">
+                    Investigating whether learning resources, study hours, and school materials explain student exam outcomes across 12,469 cleaned records, identifying key factors associated with academic success.
+                  </p>
+                  <div class="project-key-findings">
+                    <strong><i class="fa-solid fa-lightbulb"></i> Practical Discovery:</strong>
+                    Regular weekly study hours (>15 hrs) combined with digital resource access was associated with a noticeable +24 percentile point increase in exam scores.
+                  </div>
+                  <div class="project-tools-list">
+                    <span>Power BI Desktop</span>
+                    <span>Power Query (M)</span>
+                    <span>DAX Measures</span>
+                    <span>EDA Analysis</span>
+                    <span>Excel</span>
+                  </div>
+                  <div class="project-card-footer">
+                    <button class="btn btn-sm btn-primary open-modal-btn" data-project="project-education">
+                      <span>View Case Study</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                    <a href="https://github.com/LilyyAnalyst6/CodeAlpha--Educational-Performance-and-Resource-Allocation.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="Open GitHub Repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 5: Human Resources Analytics -->
+            <div class="carousel-slide" data-category="power-bi dax excel" data-index="4">
+              <article class="project-card carousel-card">
+                <div class="project-preview-banner bg-grad-hr">
+                  <div class="banner-overlay">
+                    <div class="banner-badge"><i class="fa-solid fa-users-gear"></i> HR Analytics Project</div>
+                    <div class="banner-chart-icon"><i class="fa-solid fa-user-check"></i></div>
+                    <div class="banner-stats">
+                      <div class="mini-stat"><span>311</span><small>Staff Records</small></div>
+                      <div class="mini-stat"><span>2 Pages</span><small>HR Dashboard</small></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-card-body">
+                  <div class="project-category-row">
+                    <span class="badge badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="badge badge-dax"><i class="fa-solid fa-calculator"></i> DAX</span>
+                    <span class="badge badge-excel"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                  </div>
+                  <h3 class="project-title">HR Analytics: Recruitment, Turnover &amp; Performance</h3>
+                  <p class="project-summary">
+                    A 2-page Power BI dashboard built on a 311-employee HR dataset, evaluating employee turnover patterns, hiring source effectiveness, satisfaction scores, and performance review distributions.
+                  </p>
+                  <div class="project-key-findings">
+                    <strong><i class="fa-solid fa-lightbulb"></i> Practical Discovery:</strong>
+                    Voluntary departures peaked at the 18–24 month mark; employee referral hires showed significantly higher tenure than those from external job boards.
+                  </div>
+                  <div class="project-tools-list">
+                    <span>Power BI Desktop</span>
+                    <span>HR Metrics</span>
+                    <span>DAX Calculations</span>
+                    <span>Data Exploration</span>
+                    <span>Power Query</span>
+                  </div>
+                  <div class="project-card-footer">
+                    <button class="btn btn-sm btn-primary open-modal-btn" data-project="project-hr">
+                      <span>View Case Study</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                    <a href="https://github.com/LilyyAnalyst6/CodeAlpha--Human-Resources-Analytics.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="Open GitHub Repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Carousel Pagination Dots -->
+        <div class="carousel-dots-container" id="carousel-dots-container">
+          <button class="dot-btn active" data-slide="0" aria-label="Slide 1: HealthConnect"></button>
+          <button class="dot-btn" data-slide="1" aria-label="Slide 2: Superstore Sales"></button>
+          <button class="dot-btn" data-slide="2" aria-label="Slide 3: Real Estate Trends"></button>
+          <button class="dot-btn" data-slide="3" aria-label="Slide 4: Educational Performance"></button>
+          <button class="dot-btn" data-slide="4" aria-label="Slide 5: HR Analytics"></button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CONTACT SECTION (Curated for Entry-Level & Junior Roles) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-comments"></i> Get in Touch</span>
+          <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+          <p class="section-subtitle">
+            I am actively looking for entry-level data analyst opportunities, junior roles, internships, or collaborative projects. I'd love to chat!
+          </p>
+        </div>
+
+        <div class="">
+          <!-- Contact Details Card -->
+          <div class="contact-info-card">
+            <h3>Direct Contact &amp; Profiles</h3>
+            <p>
+              Feel free to reach out directly through any of the channels below. I am excited to connect with hiring managers, data teams, mentors, and fellow analysts.
+            </p>
+
+            <div class="contact-channel-list">
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/lilian-alexander/" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon bg-linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-name">LinkedIn</span>
+                  <span class="channel-handle">linkedin.com/in/lilian-alexander</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square channel-arrow"></i>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/LilyyAnalyst6" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon bg-github">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-name">GitHub</span>
+                  <span class="channel-handle">github.com/LilyyAnalyst6</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square channel-arrow"></i>
+              </a>
+
+              <!-- Email -->
+              <div class="channel-card email-channel-card">
+                <div class="channel-icon bg-email">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-name">Email Address</span>
+                  <a href="mailto:alexanderlilian679@gmail.com" class="channel-handle text-link">alexanderlilian679@gmail.com</a>
+                </div>
+                <button class="copy-email-btn copy-action-btn" data-email="alexanderlilian679@gmail.com" title="Copy email address">
+                  <i class="fa-solid fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Location / Timezone -->
+              <div class="channel-card static-card">
+                <div class="channel-icon bg-loc">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-name">Availability &amp; Location</span>
+                  <span class="channel-handle">Open to Remote, Hybrid &amp; Onsite Roles</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Trust Badges -->
+            <div class="trust-pill-box">
+              <div class="trust-badge"><i class="fa-solid fa-circle-check text-emerald"></i> Responsive &amp; Eager to Learn</div>
+              <div class="trust-badge"><i class="fa-solid fa-circle-check text-emerald"></i> Ready for Technical Assessments &amp; Interviews</div>
+            </div>
+          </div>
+
+  <!-- FOOTER -->
+  <footer class="footer mt-5">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="nav-brand">
+          <span class="brand-badge"><i class="fa-solid fa-chart-line"></i></span>
+          <span class="brand-name">Lilian<span>Alexander</span></span>
+        </a>
+        <p class="footer-desc">
+          Entry-Level Data Analyst focused on data hygiene, structured SQL querying, and intuitive Power BI &amp; Excel dashboards.
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills &amp; Tools</a></li>
+          <li><a href="#projects">Project Showcase</a></li>
+          <li><a href="#live-demo">Live Demo</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-connect">
+        <h4>Connect</h4>
+        <div class="footer-social-icons">
+          <a href="https://www.linkedin.com/in/lilian-alexander/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/LilyyAnalyst6" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:alexanderlilian679@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="footer-email-txt">alexanderlilian679@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-content">
+        <p>&copy; <span id="current-year">2026</span> Lilian Alexander. All rights reserved.</p>
+        <p class="footer-tagline">Crafted with care, curiosity &amp; analytical rigor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CASE STUDY MODAL DIALOG -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-wrapper">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Case Study Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-content" id="modal-content">
+        <!-- Dynamic Case Study Content Injected by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-notification" id="toast-notification">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

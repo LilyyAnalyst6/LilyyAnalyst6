@@ -1,43 +1,20 @@
-# Lilian Alexander - Entry-Level Data Analyst Portfolio
+# Hi, I am Lilian Alexander  
 
-A modern, high-performance, and responsive personal portfolio website designed specifically for **Lilian Alexander**, an early-career Data Analyst with foundational practical experience.
+An Entry-Level Data Analyst 
 
-Featuring verified hands-on project case studies, an interactive project carousel, live dynamic data visualization dashboards (Chart.js), dynamic dark/light theme switching, and direct contact options.
-
----
-
-## 🌟 Key Highlights & Curated Content
-
-1. **Hero & Professional Identity**
-   - **Executive Portrait:** Features Lilian Alexander's professional photo framed in an illuminated circular avatar frame with ambient lighting and floating capability pills.
-     <img width="1243" height="1266" alt="image" src="https://github.com/user-attachments/assets/e50ede6e-6a5d-472e-ac3b-5d5ddc21837f" />
-   - **Positioning:** Grounded, authentic, and enthusiastic early-career Data Analyst ready for junior positions, internships, and entry-level opportunities.
-   - **Availability Badge:** *🟢 Open to Entry-Level Data Analyst Roles & Internships*.
-   - **Direct Socials:** LinkedIn, GitHub ([LilyyAnalyst6](https://github.com/LilyyAnalyst6)), and 1-click email copy.
-   - **Clean Hero Flow:** Clean and streamlined layout focusing on your profile photo, introduction, and immediate access to projects.
-
-2. **About Me & Analytical Approach**
-   - **Catchy & Detailed Narrative:** A compelling story highlighting your curiosity for numbers, your 3-pillar philosophy (*Curate with Integrity*, *Model with Purpose*, *Design for Humans*), and why messy data inspires your detective work.
-   - **Foundational Python:** Explicitly highlights working knowledge of Python (Pandas & NumPy) for exploratory data analysis (EDA) and programmatic data cleaning alongside SQL, Power BI, and Excel.
+   
+ **About Me & Analytical Approach**
+   I am a motivated, detail-oriented beginner in data analytics passionate about turning messy, unstructured datasets into clean, reliable visual stories. Grounded in solid fundamentals across SQL querying, Power BI dashboards, Excel modeling, and foundational Python for exploratory data analysis.
    - **Practical Competencies:**
-     * *Excel & Power Query* (Proficient - 88%)
-     * *Power BI & DAX* (Intermediate - 82%)
-     * *SQL Queries & JOINs* (Foundational - 78%)
-     * *Python (Foundational)* (Foundational - 72%)
-     * *Data Cleaning & EDA* (Hands-On - 85%)
-     * *Tableau Visuals* (Working Knowledge - 70%)
+     * *Excel & Power Query* (Proficient)
+     * *Power BI & DAX* (Intermediate)
+     * *SQL Queries & JOINs* (Foundational)
+     * *Python* (Foundational)
+     * *Data Cleaning & EDA* (Hands-On)
+     * *Tableau Visuals* (Working Knowledge)
 
-3. **Interactive Project Carousel Showcase**
-   - Seamless, touch-friendly **Project Carousel**.
-   - **Carousel Controls:**
-     * Previous (`<`) & Next (`>`) navigation arrows.
-     * Slide counter (`01 / 05`).
-     * Auto-advance timer with pause-on-hover and pause/play toggle button.
-     * Interactive pagination dots with active state indicators.
-     * Touch swipe gestures for mobile phones and tablets.
-     * Keyboard navigation (Left/Right arrow keys).
-     * Domain filter buttons to jump directly to projects by tool.
-   - **5 Practical Hands-On Projects:**
+
+     **Practical Hands-On Projects:**
      1. **HealthConnect:** Clinical Management & Patient Flow Analytics ([GitHub Repo](https://github.com/LilyyAnalyst6/HEALTHCONNECT-FINAL-PROJECT.git))
      2. **Superstore Sales Performance & Profitability Dashboard** ([GitHub Repo](https://github.com/LilyyAnalyst6/Super-Store-Sales-Dashboard.git))
      3. **California Real Estate Market Trends & Housing Economics** ([GitHub Repo](https://github.com/LilyyAnalyst6/CodeAlpha--Real-Estate-Market-Trends.git))
@@ -45,25 +22,20 @@ Featuring verified hands-on project case studies, an interactive project carouse
      5. **HR Workforce Analytics: Turnover, Recruitment & Performance** ([GitHub Repo](https://github.com/LilyyAnalyst6/CodeAlpha--Human-Resources-Analytics.git))
    - **Case Study Modals:** Clickable **"View Case Study"** modal popup on each slide breaking down the business challenge, methodology, technical code sample (SQL / DAX), and actionable findings.
 
-3. **Core Skills & Technical Competencies (Curated for an Early-Career Analyst)**
-   - **Data Cleaning & Analysis:** Duplicate and null handling, exploratory data analysis (EDA), data type standardizations, summary statistics.
+3. **Core Skills & Technical Competencies**
+   - **Data Cleaning & Analysis:** Duplicate and null handling, exploratory data analysis (EDA), data type standardizations.
    - **Data Visualization (Excel, Power BI, Tableau):** Pivot tables, pivot charts, XLOOKUP, interactive slicers, DAX calculations (SUM, CALCULATE), KPI visual cards.
    - **Database Management (SQL):** Clean query writing (SELECT, WHERE, ORDER BY, GROUP BY, HAVING), multi-table operations (INNER/LEFT JOIN), aggregations, subqueries.
    - **Report Writing & Storytelling:** Clear bulleted summaries, data dictionaries, metric definitions, presentation slides.
-   - **Analytical Thinking & Problem Solving:** Breaking down problem statements, hypothesis testing, sanity-checking numbers against raw datasets.
+   - **Analytical Thinking & Problem Solving:** Breaking down problem statements, sanity-checking numbers against raw datasets.
    - **Collaboration & Growth Mindset:** Version control with Git & GitHub, feedback receptivity, enthusiasm for continuous learning.
 
-4. **Live Interactive Dashboard (Chart.js)**
-   - Live dynamic KPI cards and multi-axis charts directly in the browser.
-   - Demonstrates understanding of metric hierarchies, KPI calculation, and responsive chart interactions.
-   - Toggle metric domains: *Revenue & Sales*, *Customer Churn*, or *Operational Efficiency*.
-   - Toggle timeframes: *Monthly View* vs *Quarterly View*.
 
-5. **Direct Contact Section**
+ **Direct Contact Section**
    - **LinkedIn:** [linkedin.com/in/lilian-alexander/](https://www.linkedin.com/in/lilian-alexander/)
    - **GitHub:** [github.com/LilyyAnalyst6](https://github.com/LilyyAnalyst6)
    - **Email:** `alexanderlilian679@gmail.com` (with 1-click copy button + notification toast)
-   - Validated contact form with inquiry options tailored for junior roles and internships.
+
 
 6. **Design & UX**
    - Dark & Light mode toggle with automatic state persistence in `localStorage`.

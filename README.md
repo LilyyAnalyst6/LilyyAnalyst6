@@ -10,6 +10,7 @@ Featuring verified hands-on project case studies, an interactive project carouse
 
 1. **Hero & Professional Identity**
    - **Executive Portrait:** Features Lilian Alexander's professional photo framed in an illuminated circular avatar frame with ambient lighting and floating capability pills.
+     <img width="1243" height="1266" alt="image" src="https://github.com/user-attachments/assets/e50ede6e-6a5d-472e-ac3b-5d5ddc21837f" />
    - **Positioning:** Grounded, authentic, and enthusiastic early-career Data Analyst ready for junior positions, internships, and entry-level opportunities.
    - **Availability Badge:** *🟢 Open to Entry-Level Data Analyst Roles & Internships*.
    - **Direct Socials:** LinkedIn, GitHub ([LilyyAnalyst6](https://github.com/LilyyAnalyst6)), and 1-click email copy.
